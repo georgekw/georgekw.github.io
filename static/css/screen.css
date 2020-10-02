@@ -185,7 +185,7 @@ a:hover {
 
 a.btn {
   text-decoration: none;
-  background-color: #9fd067;
+  background-color: #f3d7c1;
   border-radius: 6px;
   -webkit-border-radius: 6px;
   color: white;
@@ -472,8 +472,8 @@ ul li {
   height: 100%;
   margin-bottom: 0rem;
   text-align: center;
-  color: #fff;
-  background: #b80135 no-repeat center center;
+  color: #9c1d22;
+  background: #ffece9 no-repeat center center;
   background-size: cover;
 }
 
@@ -499,13 +499,13 @@ ul li {
 }
 
 /* The details of your blog. Defined in ghost/settings/ */
-.blog-title {
+.site-title {
   margin: 10px 0 10px 0;
   font-size: 5rem;
   letter-spacing: -1px;
 }
 
-.blog-description {
+.site-description {
   margin: 0;
   font-size: 2.5rem;
   line-height: 1.5em;
@@ -516,13 +516,13 @@ ul li {
 
 .post-holder {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background: #f2efe8;
   position: relative;
 }
 .post-holder.odd {
-  background: #b80135;
-  color: white;
+  background: #ffece9;
+  /*color: white;*/
 }
 
 /* Every post, on every page, gets this style on its <article> tag */
@@ -563,7 +563,7 @@ a.fn-item {
   color: white;
 }
 a.fn-item:hover {
-  color: #9fd067;
+  color: #f3d7c1;
 }
 a.fn-item.active {
   color: #86c440;
@@ -952,12 +952,12 @@ a.fn-item.active {
     margin-bottom: 0rem;
   }
 
-  .blog-title {
+  .site-title {
     font-size: 4rem;
     letter-spacing: -1px;
   }
 
-  .blog-description {
+  .site-description {
     font-size: 2.2rem;
     line-height: 1.5em;
   }
@@ -1034,11 +1034,11 @@ a.fn-item.active {
     margin-top: 10px;
   }
 
-  .blog-title {
+  .site-title {
     font-size: 3rem;
   }
 
-  .blog-description {
+  .site-description {
     font-size: 2.2rem;
   }
 

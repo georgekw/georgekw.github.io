@@ -1,3 +1,14 @@
 baseURL = "https://georgekw.github.io/"
 languageCode = "en-us"
 title = "My New Hugo Site"
+
+DefaultContentLanguage = "en"
+[languages]
+  [languages.en]
+    title = "My New Hugo i18n Site"
+    languageName = "English"
+    weight = 1
+  [languages.gr]
+    title = "Η Νεα μου Ιστιοσελιδα"
+    languageName = "Greek"
+    weight = 2
