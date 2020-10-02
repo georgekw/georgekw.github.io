@@ -3,11 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://georgekw.github.io/en/</loc>
+    <loc>https://georgekw.github.io/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="no"
-                href="https://georgekw.github.io/"
+                hreflang="en"
+                href="https://georgekw.github.io/en/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -16,17 +16,17 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="https://georgekw.github.io/en/"
+                hreflang="no"
+                href="https://georgekw.github.io/"
                 />
   </url>
   
   <url>
-    <loc>https://georgekw.github.io/en/categories/</loc>
+    <loc>https://georgekw.github.io/categories/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="no"
-                href="https://georgekw.github.io/categories/"
+                hreflang="en"
+                href="https://georgekw.github.io/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -35,17 +35,17 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="https://georgekw.github.io/en/categories/"
+                hreflang="no"
+                href="https://georgekw.github.io/categories/"
                 />
   </url>
   
   <url>
-    <loc>https://georgekw.github.io/en/tags/</loc>
+    <loc>https://georgekw.github.io/tags/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="no"
-                href="https://georgekw.github.io/tags/"
+                hreflang="en"
+                href="https://georgekw.github.io/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -54,8 +54,8 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="https://georgekw.github.io/en/tags/"
+                hreflang="no"
+                href="https://georgekw.github.io/tags/"
                 />
   </url>
   

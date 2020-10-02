@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://georgekw.github.io/en/</loc>
+    <loc>https://georgekw.github.io/zh/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="no"
@@ -11,18 +11,18 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh"
-                href="https://georgekw.github.io/zh/"
+                hreflang="en"
+                href="https://georgekw.github.io/en/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="https://georgekw.github.io/en/"
+                hreflang="zh"
+                href="https://georgekw.github.io/zh/"
                 />
   </url>
   
   <url>
-    <loc>https://georgekw.github.io/en/categories/</loc>
+    <loc>https://georgekw.github.io/zh/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="no"
@@ -30,18 +30,18 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh"
-                href="https://georgekw.github.io/zh/categories/"
+                hreflang="en"
+                href="https://georgekw.github.io/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="https://georgekw.github.io/en/categories/"
+                hreflang="zh"
+                href="https://georgekw.github.io/zh/categories/"
                 />
   </url>
   
   <url>
-    <loc>https://georgekw.github.io/en/tags/</loc>
+    <loc>https://georgekw.github.io/zh/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="no"
@@ -49,13 +49,13 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh"
-                href="https://georgekw.github.io/zh/tags/"
+                hreflang="en"
+                href="https://georgekw.github.io/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="https://georgekw.github.io/en/tags/"
+                hreflang="zh"
+                href="https://georgekw.github.io/zh/tags/"
                 />
   </url>
   

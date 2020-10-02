@@ -2,12 +2,17 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	
 	<sitemap>
+	   	<loc>https://georgekw.github.io/no/sitemap.xml</loc>
+		
+	</sitemap>
+	
+	<sitemap>
 	   	<loc>https://georgekw.github.io/en/sitemap.xml</loc>
 		
 	</sitemap>
 	
 	<sitemap>
-	   	<loc>https://georgekw.github.io/gr/sitemap.xml</loc>
+	   	<loc>https://georgekw.github.io/zh/sitemap.xml</loc>
 		
 	</sitemap>
 	
