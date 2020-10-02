@@ -1,4 +1,4 @@
-[submodule "public"]
-	path = public
+[submodule "docs"]
+	path = docs
 	url = https://github.com/georgekw/georgekw.github.io.git
 	branch = master

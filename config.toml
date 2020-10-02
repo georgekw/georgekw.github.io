@@ -1,6 +1,7 @@
 baseURL = "https://georgekw.github.io/"
 languageCode = "en-us"
 title = "Tracy & Brian 2021"
+publishDir = "docs"
 
 DefaultContentLanguage = "en"
 [languages]
