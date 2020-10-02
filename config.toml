@@ -3,13 +3,14 @@ languageCode = "en-us"
 title = "Tracy & Brian 2021"
 publishDir = "docs"
 
-DefaultContentLanguage = "en"
+DefaultContentLanguage = "no"
 [languages]
-  [languages.en]
-    title = "My New Hugo i18n Site"
-    languageName = "English"
+  [languages.no]
+    languageName = "Norwegian"
     weight = 1
-  [languages.gr]
-    title = "Η Νεα μου Ιστιοσελιδα"
-    languageName = "Greek"
+  [languages.en]
+    languageName = "English"
     weight = 2
+  [languages.zh]
+    languageName = "Chinese"
+    weight = 3
