@@ -3,6 +3,13 @@
 {{ $sections := $headless.Resources.ByType "page" }}
 <header id="site-head" {{ with .Params.header_image }}style="background-image: url({{ . }})"{{ end }}>
     <div class="vertical">
+        <div id="site-header" class="header">
+            <ul class="language-list">
+                {{ range $.Site.Home.AllTranslations }}
+                <li><a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
+                {{ end }}
+            </ul>
+        </div>
         <div id="site-head-content" class="inner">
 
             <img src="/images/dobbel-lykke.svg" alt="double happiness" style="width: 40%; height: auto;">
