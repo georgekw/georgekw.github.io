@@ -4,7 +4,7 @@
 <header id="site-head" {{ with .Params.header_image }}style="background-image: url({{ . }})"{{ end }}>
     <div class="vertical">
         <div id="site-header" class="header">
-            <a class="icon-globe-1"></a>
+            <button class="icon-globe-1" aria-label="Selected language: {{ .Site.Language.LanguageName }}">{{ .Site.Language.LanguageName }}</button>
             <ul class="language-list">
                 {{ range $.Site.Home.AllTranslations }}
                 <li><a class="language-link" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>

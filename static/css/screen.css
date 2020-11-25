@@ -469,6 +469,12 @@ ul li {
   right: 30px;
 }
 
+.header:hover .language-list, header:focus-within .language-list {
+    opacity: 1;
+    transform: rotateX(0);
+    visibility: visible;
+}
+
 .header ul {
   list-style-type: none;
   margin: 0;
@@ -487,23 +493,17 @@ ul li {
   transition: 280ms all 120ms ease-out;
 }
 
-.header ul:hover, .header ul:focus-within {
-  opacity: 1;
-  transform: rotateX(0) /*translateX(-50%)*/;
-  visibility: visible;
+.icon-globe-1 {
+  width: 100%;
+  border-radius: 4px;
+  background-color: #fff;
+  padding: 8px 22px;
+  border: 0;
 }
 
 .header ul li {
   margin-left: unset;
 }
-
-/*.header ul li:not(:first-child) {
-  background-color: #fff ;
-  border-radius: 4px;
-  box-shadow: 0 0.15em 0.25em rgba(black, 0.25);
-  padding: 0.5em 0;
-  min-width: 10ch;
-}*/
 
 .language-link {
   text-decoration: none;
