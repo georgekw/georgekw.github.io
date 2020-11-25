@@ -4,9 +4,10 @@
 <header id="site-head" {{ with .Params.header_image }}style="background-image: url({{ . }})"{{ end }}>
     <div class="vertical">
         <div id="site-header" class="header">
+            <button class="icon-globe-1" aria-label="Selected language: {{ .Site.Language.LanguageName }}">{{ .Site.Language.LanguageName }}</button>
             <ul class="language-list">
                 {{ range $.Site.Home.AllTranslations }}
-                <li><a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
+                <li><a class="language-link" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
                 {{ end }}
             </ul>
         </div>

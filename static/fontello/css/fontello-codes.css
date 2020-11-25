@@ -1,0 +1,5 @@
+@charset "UTF-8";
+
+ 
+.icon-language:before { content: '\e752'; } /* '' */
+.icon-globe-1:before { content: '🌐'; } /* '\1f310' */
