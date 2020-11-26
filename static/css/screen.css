@@ -40,6 +40,26 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "LiebeGerda";
+  src: url("../fonts/LiebeGerda-Italic.eot");
+  src: url("../fonts/LiebeGerda-Italic.eot") format("embedded-opentype"),
+    url("../fonts/LiebeGerda-Italic.woff") format("woff"),
+    url("../fonts/LiebeGerda-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Regular.eot");
+  src: url("../fonts/Montserrat-Regular.eot") format("embedded-opentype"),
+    url("../fonts/Montserrat-Regular.woff") format("woff"),
+    url("../fonts/Montserrat-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* Apply these base styles to all icons */
 .i-ghost,
 .icon-feed,
@@ -90,8 +110,7 @@ html {
 body {
   height: 100%;
   max-height: 100%;
-  /*font-family: 'Droid Serif', serif;*/
-  font-family: "Roboto Slab", serif;
+  font-family: "Montserrat", serif;
   font-size: 2rem;
   line-height: 1.6em;
   color: #3a4145;
@@ -129,7 +148,7 @@ h6 {
   line-height: 1;
   margin-top: 0;
   margin-bottom: 10px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "LiebeGerda", sans-serif;
 }
 h3,
 h4,
@@ -138,7 +157,7 @@ h6 {
   text-rendering: optimizeLegibility;
   line-height: 120%;
   margin-top: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: "LiebeGerda", sans-serif;
   margin-bottom: 0%;
 }
 
@@ -562,7 +581,7 @@ ul li {
   font-size: 2.5rem;
   line-height: 1.5em;
   font-weight: 400;
-  font-family: "Roboto Slab", serif;
+  font-family: "Montserrat", serif;
   letter-spacing: 0;
 }
 
