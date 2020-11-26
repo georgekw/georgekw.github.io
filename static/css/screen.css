@@ -512,12 +512,18 @@ ul li {
   transition: 280ms all 120ms ease-out;
 }
 
-.icon-globe-1 {
+.language-btn {
+  display: flex;
+  align-items: center;
   width: 100%;
   border-radius: 4px;
   background-color: #fff;
   padding: 8px 22px;
   border: 0;
+}
+
+.language-btn span {
+  padding-left: 6px;
 }
 
 .header ul li {
