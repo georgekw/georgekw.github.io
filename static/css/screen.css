@@ -199,15 +199,16 @@ a {
 }
 
 a:hover {
-  color: #86c440;
+  color: #f3d7c1;
 }
 
 a.btn {
   text-decoration: none;
-  background-color: #f3d7c1;
+  background-color: #fff;
   border-radius: 6px;
   -webkit-border-radius: 6px;
-  color: white;
+  border: 2px solid #f3d7c1;
+  color: #000;
   display: inline-block;
   font-size: 16px;
   letter-spacing: 1px;
@@ -217,13 +218,13 @@ a.btn {
   position: relative;
   margin-top: 2rem;
   cursor: pointer;
-  font-family: "Oswald", sans-serif;
+  font-family: "Montserrat", "serif";
   text-transform: uppercase;
   font-weight: lighter;
 }
 
 a.btn:hover {
-  background: #86c440;
+  background: #f3d7c1;
 }
 
 #header-arrow {
@@ -516,10 +517,10 @@ ul li {
   display: flex;
   align-items: center;
   width: 100%;
+  border: 2px solid #f3d7c1;
   border-radius: 4px;
   background-color: #fff;
   padding: 8px 22px;
-  border: 0;
 }
 
 .language-btn span {
@@ -533,6 +534,7 @@ ul li {
 .language-link {
   text-decoration: none;
   text-align: center;
+  color: #000;
   display: inline-block;
   font-size: 1.5rem;
 }
@@ -549,8 +551,8 @@ ul li {
   height: 100vh;
   margin-bottom: 0rem;
   text-align: center;
-  color: #9c1d22;
-  background: #ffece9 no-repeat center center;
+  color: #fff;
+  background: #b21f29 no-repeat center center;
   background-size: cover;
 }
 
@@ -594,11 +596,11 @@ ul li {
 .post-holder {
   width: 100%;
   height: 100vh;
-  background: #f2efe8;
+  background: #f8c4b7;
   position: relative;
 }
 .post-holder.odd {
-  background: #ffece9;
+  background: #b21f29;
   /*color: white;*/
 }
 
@@ -1004,7 +1006,7 @@ a.fn-item.active {
     top: 0px;
     left: 0px;
     z-index: 99999;
-    background: #f2efe8;
+    background: #f8c4b7;
     width: 100%;
     text-align: center;
     padding: 4px;

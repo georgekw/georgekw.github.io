@@ -1,6 +1,6 @@
 baseURL = "https://georgekw.github.io/"
 languageCode = "en-us"
-title = "Tracy & Brian 2021"
+title = "Tone & George 2021"
 publishDir = "docs"
 
 DefaultContentLanguage = "no"
@@ -12,5 +12,5 @@ DefaultContentLanguage = "no"
     languageName = "English"
     weight = 2
   [languages.zh]
-    languageName = "繁體中文"
+    languageName = "中文"
     weight = 3
