@@ -14,3 +14,10 @@ DefaultContentLanguage = "no"
   [languages.zh]
     languageName = "中文"
     weight = 3
+
+[params]
+  copyright = "© Designed by Josefine Madsen"
+  description = "Tone & George 2021"
+  favicon16 = "images/favicon-16x16.png"
+  favicon32 = "images/favicon-32x32.png"
+  images = ["images/cover-image.jpg"]

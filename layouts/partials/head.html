@@ -3,8 +3,12 @@
 
 <title>{{ with .Title }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}</title>
 
-{{ with .Site.Params.favicon }}
-  <link rel="shortcut icon" href="{{ . | absURL }}" type="image/png"
+{{ with .Site.Params.favicon16 }}
+  <link rel="shortcut icon" href="{{ . | absURL }}" type="image/png" size="16x16"
+/>{{ end }}
+
+{{ with .Site.Params.favicon32 }}
+  <link rel="shortcut icon" href="{{ . | absURL }}" type="image/png" size="32x32"
 />{{ end }}
 
 {{ with .Site.Params.description }}
