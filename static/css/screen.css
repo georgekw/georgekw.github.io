@@ -211,16 +211,15 @@ a.btn {
   color: #000;
   display: inline-block;
   font-size: 16px;
-  letter-spacing: 1px;
   margin: 0;
   overflow: visible;
-  padding: 10px 20px 10px 20px;
+  /*padding: 10px 20px 10px 20px;*/
+  padding: 4px 22px;
   position: relative;
   margin-top: 2rem;
   cursor: pointer;
   font-family: "Montserrat", "serif";
   text-transform: uppercase;
-  font-weight: lighter;
 }
 
 a.btn:hover {
@@ -480,6 +479,10 @@ ul li {
   vertical-align: middle;
 }
 
+.vertical-header {
+  display: table-header-group;
+}
+
 .vertical-footer {
   display: table-footer-group;
 }
@@ -489,6 +492,7 @@ ul li {
       ========================================================================== */
 .header {
   position: absolute;
+  z-index: 1;
   top: 30px;
   right: 30px;
 }
@@ -544,8 +548,37 @@ ul li {
 }
 
 .img-wrapper img {
-  width: 100%; 
+  width: 100%;
+  max-height: 300px;
   vertical-align: bottom;
+}
+
+.img-wrapper-head img {
+  width: 36%;
+  max-height: 300px;
+  vertical-align: bottom;
+}
+
+.happiness { 
+  width: 20%;
+}
+
+.flower-header {
+  position: relative;
+  width: 80%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.flower-footer {
+  position: relative;
+  width: 80%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.head-text {
+  margin: 10% 0;
 }
 
 .header ul > li:first-child > a:first-child {
@@ -1035,7 +1068,7 @@ a.fn-item.active {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     min-height: 240px;
-    padding: 15% 0 0 0;
+    /*padding: 15% 0 0 0;*/
     height: 100%;
     margin-bottom: 0rem;
   }
@@ -1082,6 +1115,19 @@ a.fn-item.active {
 }
 
 /* ==========================================================================
+      10. Media Queries - Smaller than 1024px
+      ========================================================================== */
+
+@media only screen and (max-width: 1024px) {
+  .flower-footer {
+    width: 100%;
+    margin-left: unset;
+    margin-right: unset;
+    max-width: unset;
+  }
+}
+
+/* ==========================================================================
       10. Media Queries - Smaller than 500px
       ========================================================================== */
 
@@ -1112,8 +1158,8 @@ a.fn-item.active {
   }
 
   #site-head {
-    padding: 10% 0 0 0;
-    height: 65%;
+    /*padding: 10% 0 0 0;*/
+    height: 95%;
   }
   #header-arrow {
     display: none;

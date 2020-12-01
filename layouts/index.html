@@ -2,6 +2,13 @@
 {{ $headless := .Site.GetPage "/homepage" }}
 {{ $sections := $headless.Resources.ByType "page" }}
 <header id="site-head" {{ with .Params.header_image }}style="background-image: url({{ . }})"{{ end }}>
+    <div class="vertical-header">
+        <div class="flower-header">
+            <div class="img-wrapper-head">
+                <img src="/images/blomster02.png" alt="flowers">
+            </div>
+        </div>
+    </div>
     <div class="vertical">
         <div id="site-header" class="header">
             <button class="language-btn" aria-label="Selected language: {{ .Site.Language.LanguageName }}"><i class="material-icons">translate</i><span>{{ .Site.Language.LanguageName }}</span></button>
@@ -14,11 +21,11 @@
             </ul>
         </div>
         <div id="site-head-content" class="inner">
-
-            <img src="/images/happiness.png" alt="double happiness" style="width: 40%; height: auto;">
-
-            {{ with .Params.header_headline }}<h1 class="site-title">{{ . }}</h1>{{ end }}
-            {{ with .Params.header_subheadline }}<h2 class="site-description">{{ . }}</h2>{{ end }}
+            <img src="/images/happiness.png" class="happiness" alt="Double happiness">
+            <div id="site-head-content-text" class="head-text">
+                {{ with .Params.header_headline }}<h1 class="site-title">{{ . }}</h1>{{ end }}
+                {{ with .Params.header_subheadline }}<h2 class="site-description">{{ . }}</h2>{{ end }}
+            </div>
 
             {{ range where $sections ".Params.header_button" "eq" true }}
                  <a class='btn site-menu' data-title-anchor='{{ anchorize .Title }}'>{{ .Title }}</a>
@@ -27,9 +34,9 @@
         </div>        
     </div>
     <div class="vertical-footer">
-        <div class="inner">
+        <div class="flower-footer">
             <div class="img-wrapper">
-                <img src="/images/blomster01.png" alt="blomster">
+                <img src="/images/blomster01.png" alt="flowers">
             </div>
         </div>
     </div>
