@@ -16,7 +16,7 @@ DefaultContentLanguage = "no"
     weight = 3
 
 [params]
-  copyright = "© Designed by Josefine Madsen"
+  copyright = "© Design by Josefine Madsen"
   description = "Tone & George 2021"
   favicon16 = "images/favicon-16x16.png"
   favicon32 = "images/favicon-32x32.png"

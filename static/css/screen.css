@@ -52,10 +52,10 @@
 
 @font-face {
   font-family: "Montserrat";
-  src: url("../fonts/Montserrat-Italic.eot");
-  src: url("../fonts/Montserrat-Italic.eot") format("embedded-opentype"),
-    url("../fonts/Montserrat-Italic.woff") format("woff"),
-    url("../fonts/Montserrat-Italic.ttf") format("truetype");
+  src: url("../fonts/Montserrat-Regular.eot");
+  src: url("../fonts/Montserrat-Regular.eot") format("embedded-opentype"),
+    url("../fonts/Montserrat-Regular.woff") format("woff"),
+    url("../fonts/Montserrat-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -113,7 +113,7 @@ body {
   font-family: "Montserrat", serif;
   font-size: 2rem;
   line-height: 1.6em;
-  color: #3a4145;
+  color: #000;
 }
 a.fa {
   text-decoration: none;
@@ -214,12 +214,13 @@ a.btn {
   margin: 0;
   overflow: visible;
   /*padding: 10px 20px 10px 20px;*/
-  padding: 4px 22px;
+  padding: 8px 22px;
   position: relative;
   margin-top: 2rem;
   cursor: pointer;
   font-family: "Montserrat", "serif";
   text-transform: uppercase;
+  min-width: 9rem;
 }
 
 a.btn:hover {
@@ -347,7 +348,7 @@ tt {
   border: 1px solid #e3edf3;
   background: #f7fafb;
   border-radius: 2px;
-  color: #3a4145;
+  color: #000;
 }
 
 pre {
@@ -469,7 +470,7 @@ ul li {
 .inner {
   position: relative;
   width: 80%;
-  max-width: 700px;
+  max-width: 800px;
   margin: 0 auto;
 }
 
@@ -566,14 +567,14 @@ ul li {
 .flower-header {
   position: relative;
   width: 80%;
-  max-width: 700px;
+  max-width: 800px;
   margin: 0 auto;
 }
 
 .flower-footer {
   position: relative;
   width: 80%;
-  max-width: 700px;
+  max-width: 800px;
   margin: 0 auto;
 }
 
@@ -638,7 +639,8 @@ ul li {
 .post-holder {
   width: 100%;
   height: 100vh;
-  background: #f8c4b7;
+  /* background: #f8c4b7; */
+  background: #efdFd0;
   position: relative;
 }
 .post-holder.odd {
@@ -650,7 +652,7 @@ ul li {
 .post {
   position: relative;
   width: 80%;
-  max-width: 700px;
+  max-width: 800px;
   margin: 0rem auto;
   padding-bottom: 10rem;
   padding-top: 10rem;
@@ -811,7 +813,7 @@ a.fn-item.active {
 .post-content img {
   display: block;
   max-width: 100%;
-  margin: 0 auto;
+  margin: 5rem auto;
 }
 
 /* The author credit area after the post */
@@ -884,7 +886,7 @@ a.fn-item.active {
 .pagination {
   position: relative;
   width: 80%;
-  max-width: 700px;
+  max-width: 800px;
   margin: 4rem auto;
   font-family: "Open Sans", sans-serif;
   font-size: 1.3rem;
@@ -1053,7 +1055,8 @@ a.fn-item.active {
     top: 0px;
     left: 0px;
     z-index: 99999;
-    background: #f8c4b7;
+    /* background: #f8c4b7; */
+    background: #efdFd0;
     width: 100%;
     text-align: center;
     padding: 4px;
@@ -1160,6 +1163,8 @@ a.fn-item.active {
     margin-right: 16px;
     font-size: 0.8em;
     line-height: 1.6em;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
   }
 
   #site-head {
@@ -1174,7 +1179,7 @@ a.fn-item.active {
   }
 
   .site-title {
-    font-size: 3rem;
+    font-size: 3.5rem;
   }
 
   .site-description {
