@@ -4,16 +4,14 @@ weight: 2
 header_menu: true
 ---
 
-That is the important part, right? You want to know what I can do for you. This is why I put this right up there into the header menu of the website.
+![Red doors](images/reddoors.jpg)
 
----
+#### 6:00pm
 
-## Nutrition Coaching
+&nbsp; 
 
-This is not an easy task. You will likely have to pay money for this. You know what - let us look at a nice picture first.
+**Gamle Museet**
 
-![Nice picture to make you pay me ;-)](images/selective-focus-photography-of-pasta-with-tomato-and-basil-1279330.jpg)
+Dronningens gate 4
 
-Wow. That was nice, right? Well, call me and let us talk.
-
----
+Oslo

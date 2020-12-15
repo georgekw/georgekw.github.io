@@ -4,16 +4,14 @@ weight: 2
 header_menu: true
 ---
 
-Bryllupsfesttekst kommer her
+![Red doors)](images/reddoors.jpg)
 
----
+#### Kl 18:00
 
-## Nutrition Coaching
+&nbsp; 
 
-This is not an easy task. You will likely have to pay money for this. You know what - let us look at a nice picture first.
+**Gamle Museet**
 
-![Nice picture to make you pay me ;-)](images/selective-focus-photography-of-pasta-with-tomato-and-basil-1279330.jpg)
+Dronningens gate 4
 
-Wow. That was nice, right? Well, call me and let us talk.
-
----
+Oslo
