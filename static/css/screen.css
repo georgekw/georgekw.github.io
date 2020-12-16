@@ -622,13 +622,13 @@ ul li {
 
 /* The details of your blog. Defined in ghost/settings/ */
 .site-title {
-  margin: 10px 0 10px 0;
+  margin: 3rem 0;
   font-size: 5rem;
   letter-spacing: 3px;
 }
 
 .site-description {
-  margin: 0;
+  margin: 1rem 0;
   font-size: 2.5rem;
   line-height: 1.5em;
   font-weight: 400;
@@ -1087,7 +1087,7 @@ a.fn-item.active {
   }
 
   .site-description {
-    font-size: 2.2rem;
+    font-size: 0.9em;
     line-height: 1.5em;
   }
 
@@ -1179,11 +1179,12 @@ a.fn-item.active {
   }
 
   .site-title {
+    margin: 1.5rem 0;
     font-size: 3.5rem;
   }
 
   .site-description {
-    font-size: 2.2rem;
+    font-size: 0.8em;
   }
 
   h1,

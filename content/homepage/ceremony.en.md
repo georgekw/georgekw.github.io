@@ -4,7 +4,7 @@ weight: 1
 header_menu: true
 ---
 
-![Paulus Church)](images/paulus.jpg)
+![Paulus Church](/images/paulus.jpg)
 
 #### 4:00pm
 

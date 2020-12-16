@@ -4,7 +4,7 @@ weight: 2
 header_menu: true
 ---
 
-![Red doors)](images/reddoors.jpg)
+![Red doors](images/reddoors.jpg)
 
 #### Kl 18:00
 

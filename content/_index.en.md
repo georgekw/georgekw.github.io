@@ -1,5 +1,5 @@
 ---
-header_image: "images/cover-image.jpg"
 header_headline: "Tone & George"
-header_subheadline: "We are tying the knot"
+header_subheadline: "Are Getting Married"
+header_dateline: "August 28, 2021 • Oslo"
 ---
