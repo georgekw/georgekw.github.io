@@ -1,7 +1,7 @@
 {{ define "main" }}
 {{ $headless := .Site.GetPage "/homepage" }}
 {{ $sections := $headless.Resources.ByType "page" }}
-<header id="site-head" {{ with .Params.header_image }}style="background-image: url({{ . }})"{{ end }}>
+<header id="site-head">
     <div class="vertical-header">
         <div class="flower-header">
             <div class="img-wrapper-head">
@@ -25,6 +25,7 @@
             <div id="site-head-content-text" class="head-text">
                 {{ with .Params.header_headline }}<h1 class="site-title">{{ . }}</h1>{{ end }}
                 {{ with .Params.header_subheadline }}<h2 class="site-description">{{ . }}</h2>{{ end }}
+                {{ with .Params.header_dateline }}<h2 class="site-description">{{ . }}</h2>{{ end }}
             </div>
 
             {{ range where $sections ".Params.header_button" "eq" true }}
