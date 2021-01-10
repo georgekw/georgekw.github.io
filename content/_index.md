@@ -1,5 +1,5 @@
 ---
 header_headline: "Tone & George"
-header_subheadline: "Vi gifter oss"
-header_dateline: "28.08.2021 • Oslo"
+header_subheadline: "Oslo"
+header_dateline: "Lørdag 28. august 2021"
 ---
