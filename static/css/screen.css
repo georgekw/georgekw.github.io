@@ -560,7 +560,7 @@ ul li {
 }
 
 .happiness { 
-  width: 10%;
+  width: 15vh;
 }
 
 .flower-header {
@@ -645,7 +645,8 @@ ul li {
 
 .post-holder {
   width: 100%;
-  height: 100vh;
+  height: 100%;
+  min-height: 100vh;
   /* old old old background: #f8c4b7;#efdFd0 */
   background: white;
   position: relative;
@@ -1050,7 +1051,27 @@ a.fn-item.active {
 }
 
 /* ==========================================================================
-      9. Media Queries - Smaller than 1130px
+      9. Media Queries - Smaller than 1280px
+      ========================================================================== */
+
+@media only screen and (max-width: 1280px) {
+  .img-wrapper img {
+    width: 50%;
+  }
+
+  .site-title {
+    margin: 2rem 0;
+    letter-spacing: 2px;
+  }
+
+  .site-description {
+    font-size: 2rem;
+  }
+
+}
+
+/* ==========================================================================
+      9.1 Media Queries - Smaller than 1130px
       ========================================================================== */
 
 @media only screen and (max-width: 1130px) {
@@ -1087,7 +1108,6 @@ a.fn-item.active {
   }
 
   .site-title {
-    font-size: 4rem;
     letter-spacing: -1px;
   }
 
@@ -1106,10 +1126,6 @@ a.fn-item.active {
 
   .img-wrapper-head img {
     width: 36%;
-  }
-
-  .happiness { 
-    width: 20%;
   }
 
   .post {
