@@ -563,19 +563,10 @@ ul li {
   width: 15vh;
 }
 
-.flower-header {
-  position: relative;
-  max-width: 120rem;
-  margin: 0 auto;
+.card-bottom {
+  overflow-y: hidden;
 }
 
-.flower-footer {
-  /*position: relative;
-  width: 80%;
-  max-width: 800px;
-  margin: 0 auto;
-  */
-}
 
 .head-text {
   margin: 5% 0;
@@ -1117,7 +1108,7 @@ a.fn-item.active {
   }
 
   .head-text {
-    margin: 10% 0;
+    margin: 6vh 0;
   }
 
   .img-wrapper img {
@@ -1166,12 +1157,6 @@ a.fn-item.active {
 @media only screen and (max-width: 1024px) {
   .card-container {
     width: 100%;
-  }
-  .flower-footer {
-    width: 100%;
-    margin-left: unset;
-    margin-right: unset;
-    max-width: unset;
   }
 }
 
