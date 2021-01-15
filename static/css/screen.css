@@ -130,7 +130,9 @@ a.fa {
   text-shadow: none;
 }
 .left {
-  float: left;
+  max-width: 80%;
+  margin: auto;
+  text-align: left;
 }
 .right {
   float: right;

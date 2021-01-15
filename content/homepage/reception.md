@@ -6,7 +6,7 @@ header_menu: true
 
 ![Red doors](images/reddoors.jpg)
 
-#### Kl 18:00
+#### Kl 19:00
 
 &nbsp; 
 
@@ -15,3 +15,11 @@ header_menu: true
 Dronningens gate 4
 
 Oslo
+
+---
+
+{{< left-paragraph>}}Mottakelse, middag og fest vil bli holdt i Gamle Museet i Kvadraturen i Oslo sentrum. Mingleområdet åpner rett etter vielsen kl 17.00 der det vil bli servert velkomstdrink og fingermat. Mottakelsen begynner 18.45 og middagen starter 19.00.{{< /left-paragraph >}}
+
+&nbsp; 
+
+{{< left-paragraph>}}Etter middagen er det fest!{{< /left-paragraph >}}
