@@ -191,6 +191,7 @@ h3 {
 
 h4 {
   font-size: 3rem;
+  letter-spacing: 2px;
 }
 
 h5 {
@@ -214,11 +215,11 @@ a:hover {
 
 a.btn {
   text-decoration: none;
-  background-color: var(--red);
+  background-color: #fff;
   border-radius: 6px;
   -webkit-border-radius: 6px;
-  border: 2px solid #f3d7c1;
-  color: #fff;
+  border: 2px solid var(--red);
+  color: #000;
   display: inline-block;
   font-size: 16px;
   margin: 0;
@@ -536,7 +537,7 @@ ul li {
   display: flex;
   align-items: center;
   width: 100%;
-  border: 2px solid #f3d7c1;
+  border: 2px solid var(--pink);
   border-radius: 4px;
   background-color: #fff;
   padding: 8px 22px;
@@ -559,7 +560,7 @@ ul li {
 }
 
 .img-wrapper img {
-  width: 60%;
+  width: 40%;
   vertical-align: bottom;
 }
 
@@ -576,7 +577,7 @@ ul li {
 }
 
 .card-bottom {
-  overflow-y: hidden;
+  /*overflow-y: hidden;*/
 }
 
 .head-logo {
@@ -600,9 +601,6 @@ ul li {
   background: var(--pink-light);
   padding: 6rem 0;
   box-sizing: border-box;
-}
-
-#site-head:after {
 }
 
 .header-container {
@@ -669,7 +667,7 @@ ul li {
   height: 70%;
   word-break: break-word;
   hyphens: auto;
-  border-top: 5px solid var(--red)
+  border-top: 2px solid var(--pink)
 }
 
 /* Add a little circle in the middle of the border-bottom on our .post
@@ -702,22 +700,6 @@ a.fn-item:hover {
 a.fn-item.active {
   color: var(--red);
   opacity: 1;
-}
-
-.post-after {
-  position: absolute;
-  bottom: -40px;
-  right: 6%;
-  z-index: 1;
-  width: 0;
-  height: 0;
-  border-left: 60px solid transparent;
-  border-right: 60px solid transparent;
-  border-top: 50px solid #f2efe8;
-  border-radius: 25px;
-}
-.post-after.even {
-  left: 6%;
 }
 
 .post-title {
@@ -1201,10 +1183,6 @@ a.fn-item.active {
     max-width: 100%;
   }
 
-  #site-head {
-    /*padding: 10% 0 0 0;*/
-    height: 95%;
-  }
   #header-arrow {
     display: none;
   }
