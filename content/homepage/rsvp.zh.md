@@ -4,7 +4,7 @@ weight: 5
 header_button: true
 ---
 
-我們希望看到你在那裡
+{{< left-paragraph>}}我們希望看到你在那裡{{< /left-paragraph >}}
 
 {{< button href="https://forms.gle/Lxu3ZQvHiYZC7ZDJ9" class="btn" >}}RVSP{{< /button >}}
 
