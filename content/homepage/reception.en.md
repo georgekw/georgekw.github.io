@@ -16,7 +16,7 @@ Dronningens gate 4
 
 Oslo
 
----
+&nbsp;
 
 {{< left-paragraph>}}The reception, dinner and dancing follows immediatly after the ceremony. The venue Gamle Museet ("The Old Museum") was previously the official Astrup Fearnly Museum of modern art between 1993 and 2012, and is today an event venue located in the center of Oslo.{{< /left-paragraph >}}
 

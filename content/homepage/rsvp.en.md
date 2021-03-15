@@ -4,7 +4,13 @@ weight: 5
 header_button: true
 ---
 
-We look forward to seeing you! Fill out the form on this page.
+&nbsp;
+
+#### 1 July
+
+&nbsp;
+
+{{< left-paragraph>}}We look forward to seeing you! Fill out the form on this page.{{< /left-paragraph >}}
 
 {{< button href="https://forms.gle/Lxu3ZQvHiYZC7ZDJ9" class="btn" >}}RVSP{{< /button >}}
 
