@@ -22,4 +22,4 @@ Oslo
 
 &nbsp; 
 
-{{< left-paragraph>}}Etter middagen er det fest!{{< /left-paragraph >}}
+{{< left-paragraph>}}Etter middagen er det fest ut til de sene nattetimer (03.00)!{{< /left-paragraph >}}

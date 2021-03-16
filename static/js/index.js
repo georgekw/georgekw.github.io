@@ -35,9 +35,6 @@ var $sitehead = $("#site-head");
     $("a.btn.site-menu").click(function (e) {
       srcToAnchorWithTitle($(e.target).data("title-anchor"));
     });
-    $("#header-arrow").click(function () {
-      srcTo($first);
-    });
 
     $(".post-title").each(function () {
       var t = $(this).text();

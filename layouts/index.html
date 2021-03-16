@@ -28,7 +28,6 @@
                 {{ range where $sections ".Params.header_button" "eq" true }}
                      <a class='btn site-menu' data-title-anchor='{{ anchorize .Title }}'>{{ .Title }}</a>
                 {{ end }}
-                <i id='header-arrow' class="fa fa-angle-down"></i>
             </div>        
         </div>
         <div class="card-bottom">
