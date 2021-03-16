@@ -4,7 +4,7 @@ weight: 2
 header_menu: true
 ---
 
-![Red doors](images/reddoors.jpg)
+![Gamle Museet](images/gamlemuseetUte.jpg)
 
 #### Kl 19:00
 

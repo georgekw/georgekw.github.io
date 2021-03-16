@@ -14,4 +14,4 @@ header_button: true
 
 {{< button href="https://forms.gle/RJtizo8zKv5ZBBmx7" class="btn" >}}Svar her{{< /button >}}
 
-![George and Tone](images/gt_fjord.jpg)
+![George and Tone](images/malagaPier.jpg)
