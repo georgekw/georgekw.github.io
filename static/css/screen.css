@@ -541,11 +541,6 @@ ul li {
   font-size: 1.5rem;
 }
 
-.img-wrapper img {
-  width: 40vh;
-  vertical-align: bottom;
-}
-
 .happiness { 
   width: 15vh;
 }
@@ -558,8 +553,22 @@ ul li {
   width: 20vh;
 }
 
-.card-bottom {
-  /*overflow-y: hidden;*/
+.card-center {
+  margin-top: -20vh;
+  margin-bottom: -10vh;
+}
+
+.flowers-ur {
+  text-align: right;
+
+}
+
+.flower-img {
+  max-width: 60vw;
+}
+
+.flowers-ll {
+  text-align: left;
 }
 
 .head-logo {
@@ -587,7 +596,7 @@ ul li {
 
 .header-container {
   display: flex;
-  justify-content: space-between;
+  /*justify-content: space-between;*/
   flex-direction: column;
   height: 100%;
   max-width: 120rem;
@@ -1036,6 +1045,11 @@ a.fn-item.active {
     width: 28vh;
   }
 
+  .card-center {
+    margin-bottom: 0vh;
+  }
+
+
 }
 
 /* ==========================================================================
@@ -1070,7 +1084,7 @@ a.fn-item.active {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     min-height: 240px;
-    padding: unset;
+    /*padding: unset;*/
     height: 100%;
     margin-bottom: 0rem;
   }
@@ -1120,9 +1134,9 @@ a.fn-item.active {
       ========================================================================== */
 
 @media only screen and (max-width: 1024px) {
-  .card-center {
+  /*.card-center {
     margin-top: 10vh;
-  }
+  }*/
 
   .header-container {
     width: 100%;
@@ -1130,7 +1144,36 @@ a.fn-item.active {
 }
 
 /* ==========================================================================
-      10. Media Queries - Smaller than 500px
+      11. Media Queries - Height smaller than 950px
+      ========================================================================== */
+
+  @media only screen and (max-height: 950px) {
+    .card-center {
+      margin-top: -35vh;
+      margin-bottom: -20vh;
+    }
+  }
+
+  @media only screen and (max-height: 950px) and (max-width: 500px) {
+    .card-center {
+      margin-top: -20vh;
+      margin-bottom: 0vh;
+    }
+  }
+
+/* ==========================================================================
+    12. Media Queries - Height smaller than 736px
+    ========================================================================== */
+
+  @media only screen and (max-height: 736px) {
+    .card-center {
+      margin-top: -23vh;
+      margin-bottom: -10vh;
+    }
+  }
+
+/* ==========================================================================
+      13. Media Queries - Smaller than 500px
       ========================================================================== */
 
 @media only screen and (max-width: 500px) {
