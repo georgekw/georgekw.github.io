@@ -3,59 +3,59 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://georgekw.github.io/</loc>
+    <loc>https://test.toneoggeorge.no/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://georgekw.github.io/en/"
+                href="https://test.toneoggeorge.no/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://georgekw.github.io/zh/"
+                href="https://test.toneoggeorge.no/zh/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="no"
-                href="https://georgekw.github.io/"
+                href="https://test.toneoggeorge.no/"
                 />
   </url>
   
   <url>
-    <loc>https://georgekw.github.io/categories/</loc>
+    <loc>https://test.toneoggeorge.no/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://georgekw.github.io/en/categories/"
+                href="https://test.toneoggeorge.no/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://georgekw.github.io/zh/categories/"
+                href="https://test.toneoggeorge.no/zh/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="no"
-                href="https://georgekw.github.io/categories/"
+                href="https://test.toneoggeorge.no/categories/"
                 />
   </url>
   
   <url>
-    <loc>https://georgekw.github.io/tags/</loc>
+    <loc>https://test.toneoggeorge.no/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://georgekw.github.io/en/tags/"
+                href="https://test.toneoggeorge.no/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://georgekw.github.io/zh/tags/"
+                href="https://test.toneoggeorge.no/zh/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="no"
-                href="https://georgekw.github.io/tags/"
+                href="https://test.toneoggeorge.no/tags/"
                 />
   </url>
   
