@@ -12,6 +12,6 @@ header_button: true
 
 {{< left-paragraph>}}We look forward to seeing you! Please fill out the form to let us know.{{< /left-paragraph >}}
 
-{{< button href="https://forms.gle/Lxu3ZQvHiYZC7ZDJ9" class="btn" >}}RVSP{{< /button >}}
+{{< button href="https://forms.gle/Lxu3ZQvHiYZC7ZDJ9" class="btn" >}}RSVP{{< /button >}}
 
 ![George and Tone](/images/malagaPier.jpg)

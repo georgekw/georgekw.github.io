@@ -4,6 +4,18 @@ weight: 2
 header_menu: true
 ---
 
-设席时间：-- 点 -- 分恭候
+![Gamle Museet](/images/gamlemuseetUte.jpg)
 
-                  -- 点 -- 分入席
+#### 6:00pm
+
+&nbsp; 
+
+**Gamle Museet**
+
+地址: Dronningens gate 4
+
+Oslo
+
+&nbsp;
+
+{{< left-paragraph>}}婚宴: 6pm-10pm{{< /left-paragraph >}}
