@@ -20,6 +20,6 @@ Oslo
 
 &nbsp; 
 
-{{< left-paragraph>}}我們的婚禮將於2021年8月28日 星期六舉行。 下午四時的婚禮在 Paulus Kirke 教堂將以傳統儀式呈現，後續我們將前往 Gamle Museet 舉行宴會{{< /left-paragraph >}}
+{{< left-paragraph>}}我們的婚禮將於2021年8月28日(星期六)下午四點在 Paulus Kirke 教堂舉行，婚禮儀式之后在 Gamle Museum 宴請貴賓。{{< /left-paragraph >}}
 
 

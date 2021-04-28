@@ -18,4 +18,4 @@ Oslo
 
 &nbsp;
 
-{{< left-paragraph>}}婚宴: 6pm-10pm{{< /left-paragraph >}}
+{{< left-paragraph>}}六點入席 Gamle Museet, 六點半共同迎接新郎新娘， 七點宴會開始。{{< /left-paragraph >}}

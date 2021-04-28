@@ -22,4 +22,4 @@ Oslo
 
 &nbsp; 
 
-{{< left-paragraph>}}The lobby opens at 5pm for mingling and some refreshments before dinner. The reception grand entrance is starts at 6.45pm and the dinner will be served at 7pm. The dance party follows after the dinner into the late night.{{< /left-paragraph >}}
+{{< left-paragraph>}}The lobby opens at 6pm for mingling and some refreshments before dinner. The reception grand entrance is starts at 6.30pm and the dinner will be served at 7pm. The dance party follows after the dinner into the late night.{{< /left-paragraph >}}

@@ -14,4 +14,4 @@ header_button: true
 
 {{< button href="https://forms.gle/Lxu3ZQvHiYZC7ZDJ9" class="btn" >}}RSVP{{< /button >}}
 
-![George and Tone](/images/malagaPier.jpg)
+![George and Tone](/images/GT.jpg)
