@@ -1172,6 +1172,13 @@ a.fn-item.active {
     }
   }
 
+  @media only screen and (max-height: 736px) and (min-width: 500px) {
+    .card-center {
+      margin-top: -47vh;
+      margin-bottom: -28vh;
+    }
+  }
+
 /* ==========================================================================
       13. Media Queries - Smaller than 500px
       ========================================================================== */
