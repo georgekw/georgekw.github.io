@@ -3,59 +3,59 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://test.toneoggeorge.no/zh/</loc>
+    <loc>https://toneoggeorge.no/zh/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="no"
-                href="https://test.toneoggeorge.no/"
+                href="https://toneoggeorge.no/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://test.toneoggeorge.no/en/"
+                href="https://toneoggeorge.no/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://test.toneoggeorge.no/zh/"
+                href="https://toneoggeorge.no/zh/"
                 />
   </url>
   
   <url>
-    <loc>https://test.toneoggeorge.no/zh/categories/</loc>
+    <loc>https://toneoggeorge.no/zh/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="no"
-                href="https://test.toneoggeorge.no/categories/"
+                href="https://toneoggeorge.no/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://test.toneoggeorge.no/en/categories/"
+                href="https://toneoggeorge.no/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://test.toneoggeorge.no/zh/categories/"
+                href="https://toneoggeorge.no/zh/categories/"
                 />
   </url>
   
   <url>
-    <loc>https://test.toneoggeorge.no/zh/tags/</loc>
+    <loc>https://toneoggeorge.no/zh/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="no"
-                href="https://test.toneoggeorge.no/tags/"
+                href="https://toneoggeorge.no/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://test.toneoggeorge.no/en/tags/"
+                href="https://toneoggeorge.no/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://test.toneoggeorge.no/zh/tags/"
+                href="https://toneoggeorge.no/zh/tags/"
                 />
   </url>
   
