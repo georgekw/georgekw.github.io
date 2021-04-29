@@ -10,8 +10,8 @@ header_button: true
 
 &nbsp;
 
-{{< left-paragraph>}}Vi gleder oss til å feire denne dagen og håper du har anledning til å komme. Vennligst gi oss tilbakemelding i skjemaet. Skulle det være noen spørsmål vet du hvordan du får tak i oss.{{< /left-paragraph >}}
+{{< left-paragraph>}}Vi gleder oss til å feire denne dagen og håper du har anledning til å komme. Vennligst gi oss tilbakemelding i svarskjemaet. Skulle det være noen spørsmål vet du hvordan du får tak i oss.{{< /left-paragraph >}}
 
-{{< button href="https://forms.gle/RJtizo8zKv5ZBBmx7" class="btn" >}}Svar her{{< /button >}}
+{{< button href="https://forms.gle/RJtizo8zKv5ZBBmx7" class="btn" >}}RSVP{{< /button >}}
 
 ![George and Tone](images/GT.jpg)

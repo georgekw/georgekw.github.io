@@ -6,7 +6,7 @@ header_menu: true
 
 ![Paulus Church](images/paulus.jpg)
 
-#### Kl 16:00
+#### Kl. 16:00
 
 &nbsp; 
 
