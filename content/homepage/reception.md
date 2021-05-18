@@ -6,7 +6,7 @@ header_menu: true
 
 ![Gamle Museet](images/gamlemuseetUte.jpg)
 
-#### Kl. 19:00
+#### Kl. 18:00
 
 &nbsp; 
 
