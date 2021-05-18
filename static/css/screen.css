@@ -214,6 +214,7 @@ a:hover {
 }
 
 a.btn {
+  z-index: 1;
   text-decoration: none;
   background-color: #fff;
   border-radius: 6px;
@@ -461,9 +462,10 @@ ul li {
 
 /* Creates a responsive wrapper that makes our content scale nicely */
 .inner {
-  position: relative;
-  max-width: 120rem;
-  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 5vw;
 }
 
 /* Centres vertically yo. (IE8+) */
@@ -542,45 +544,58 @@ ul li {
 }
 
 .happiness { 
-  width: 15vh;
+  width: 100%;
+  max-width: 180px;
 }
 
 .GT-img {
-  width: 38vh;
+  width: 100%;
+  height: 100%;
 }
 
 .Date-img {
-  width: 20vh;
+  width: 90%;
+  height: 90%;
 }
 
 .card-center {
-  margin-top: -20vh;
-  margin-bottom: -10vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
 }
 
 .flowers-ur {
-  text-align: right;
-
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  max-width: 400px;
 }
 
 .flower-img {
-  max-width: 60vw;
+  width: 100%;
+  height: 100%;
 }
 
 .flowers-ll {
-  text-align: left;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50%;
+  max-width: 400px;
 }
 
 .head-logo {
-  margin: 7vh 0;
+  margin: 0 35% 5vh;
 }
 
 .head-text {
-  margin: 1% 0;
+  margin: 0 10vw;
 }
 
 .header ul > li:first-child > a:first-child {
-  /*padding: 1rem 0.5rem;*/
 }
 
 /* Big cover image on the home page */
@@ -590,13 +605,13 @@ ul li {
   text-align: center;
   color: #000;
   background: var(--pink-light);
-  padding: 6rem 0;
+  padding: 3% 0;
   box-sizing: border-box;
 }
 
 .header-container {
   display: flex;
-  /*justify-content: space-between;*/
+  position: relative;
   flex-direction: column;
   height: 100%;
   max-width: 120rem;
@@ -1042,11 +1057,10 @@ a.fn-item.active {
   }
 
   .GT-img {
-    width: 28vh;
+
   }
 
   .card-center {
-    margin-bottom: 0vh;
   }
 
 
@@ -1084,7 +1098,6 @@ a.fn-item.active {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     min-height: 240px;
-    /*padding: unset;*/
     height: 100%;
     margin-bottom: 0rem;
   }
@@ -1134,10 +1147,6 @@ a.fn-item.active {
       ========================================================================== */
 
 @media only screen and (max-width: 1024px) {
-  /*.card-center {
-    margin-top: 10vh;
-  }*/
-
   .header-container {
     width: 100%;
   }
@@ -1149,15 +1158,11 @@ a.fn-item.active {
 
   @media only screen and (max-height: 950px) {
     .card-center {
-      margin-top: -35vh;
-      margin-bottom: -20vh;
     }
   }
 
   @media only screen and (max-height: 950px) and (max-width: 500px) {
     .card-center {
-      margin-top: -20vh;
-      margin-bottom: 0vh;
     }
   }
 
@@ -1167,15 +1172,13 @@ a.fn-item.active {
 
   @media only screen and (max-height: 736px) {
     .card-center {
-      margin-top: -23vh;
-      margin-bottom: -10vh;
+
     }
   }
 
   @media only screen and (max-height: 736px) and (min-width: 500px) {
     .card-center {
-      margin-top: -47vh;
-      margin-bottom: -28vh;
+
     }
   }
 
@@ -1194,7 +1197,6 @@ a.fn-item.active {
     max-height: 80px;
   }
 
-  .inner,
   .pagination {
     width: auto;
     margin-left: 16px;
